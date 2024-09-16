@@ -25,11 +25,8 @@ function loadTeams() {
                 const anos = document.createElement('p');
                 anos.textContent = `${team.anotitulos}`;
 
-
                 overlay.appendChild(titulo);
-                overlay.appendChild(anos)
-
-
+                overlay.appendChild(anos);
 
                 card.appendChild(img);
                 card.appendChild(h3);
