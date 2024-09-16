@@ -2,7 +2,7 @@
 
 body {
     font-family: "SUSE", sans-serif;
-    background-color: rgba(0, 139, 252, 0.5);
+    background-color: rgba(0, 47, 255, 0.396);
 
 }
 
@@ -22,7 +22,6 @@ body {
     font-size: 5em;
     margin: auto;
     margin-top: 30px;
-
 }
 
 .sportscard img {
@@ -37,31 +36,7 @@ body {
 .sportscard:hover {
     transform: scale(1.10);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.800);
-    filter: drop-shadow(0px 0px 10px grey);
-
-}
-
-a {
-    font-family: "SUSE", sans-serif;
-    text-decoration: none;
-    color: aliceblue;
-
-
-}
-
-a:visited {
-    color: aliceblue;
-
-}
-
-a:hover {
-    color: aliceblue;
-    filter: drop-shadow(0px 0px 25px cyan);
-}
-
-a:active {
-    color: aliceblue;
-
+    filter: drop-shadow(0px 0px 10px blue);
 
 }
 
@@ -73,11 +48,12 @@ a:active {
 }
 
 .team-card {
+
     position: relative;
     width: 200px;
     padding: 15px;
-    border: 1px solid black;
-    border-radius: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.800);
+    border-radius: 25px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px;
@@ -88,7 +64,7 @@ a:active {
 
 .team-card:hover {
     transform: scale(1.25);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.800);
+    box-shadow: 0 8px 16px rgba(0, 10, 10, 0.75);
 }
 
 .team-card img {
@@ -96,7 +72,7 @@ a:active {
     height: auto;
     max-width: 150px;
     margin-bottom: 10px;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.5s ease;
 }
 
 .team-card:hover img {
@@ -135,4 +111,27 @@ a:active {
 .card-overlay p {
     margin: 10px 0;
     font-size: 1.2em;
+}
+
+a {
+    font-family: "SUSE", sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+
+
+}
+
+a:visited {
+    color: aliceblue;
+
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+a:active {
+    color: aliceblue;
+
+
 }
