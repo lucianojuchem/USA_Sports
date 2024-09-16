@@ -2,13 +2,14 @@
 
 body {
     font-family: "SUSE", sans-serif;
+    background-color: rgba(0, 139, 252, 0.5);
 
 }
 
 .sportscard {
     font-family: "SUSE", sans-serif;
-    height: 200px;
-    width: 1500px;
+    height: 150px;
+    width: 450px;
     justify-content: center;
     display: flex;
     position: relative;
@@ -18,38 +19,50 @@ body {
     color: aliceblue;
     overflow: hidden;
     align-items: center;
-    font-size: 6em;
+    font-size: 5em;
     margin: auto;
-    
+    margin-top: 30px;
+
 }
 
 .sportscard img {
-    width : 100px; 
+    width: 100px;
     height: 100px;
+}
+
+.sportscard:hover img {
+    filter: drop-shadow(0px 0px 10px cyan);
+}
+
+.sportscard:hover {
+    transform: scale(1.10);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.800);
+    filter: drop-shadow(0px 0px 10px grey);
+
 }
 
 a {
     font-family: "SUSE", sans-serif;
-
     text-decoration: none;
-    
     color: aliceblue;
-   
+
+
 }
 
 a:visited {
     color: aliceblue;
-    
+
 }
 
 a:hover {
     color: aliceblue;
-  
+    filter: drop-shadow(0px 0px 25px cyan);
 }
 
 a:active {
     color: aliceblue;
-    
+
+
 }
 
 #teams-container {
@@ -70,6 +83,7 @@ a:active {
     margin: 20px;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 }
 
 .team-card:hover {
