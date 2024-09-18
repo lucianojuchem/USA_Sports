@@ -31,15 +31,12 @@ body {
 
 .sportscard:hover img {
     filter: drop-shadow(0px 0px 10px cyan);
-    transform: rotateY(360deg);
-    transition: 1s;
 }
 
 .sportscard:hover {
     transform: scale(1.10);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.800);
     filter: drop-shadow(0px 0px 10px blue);
-
 }
 
 #teams-container {
@@ -78,8 +75,6 @@ body {
 
 .team-card:hover img {
     opacity: 0.75;
-    transform: rotateX(360deg);
-    transition: 1s;
 }
 
 .team-card h3 {
